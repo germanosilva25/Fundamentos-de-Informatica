@@ -1,0 +1,32 @@
+Para calcular o tamanho em megabytes (MB) de uma imagem de 48 megapixels (MP), precisamos entender alguns conceitos e fazer algumas suposições sobre a profundidade de cor (bits por pixel) da imagem. Vamos detalhar os passos:
+
+### Passo 1: Entendendo Megapixels
+- **48 MP** significa que a imagem possui 48 milhões de pixels.
+
+### Passo 2: Profundidade de Cor
+A profundidade de cor comum para imagens digitais é de 24 bits por pixel (8 bits para cada canal de cor: vermelho, verde e azul). Vamos usar essa profundidade para os cálculos.
+
+### Passo 3: Calculando o Tamanho Total da Imagem em Bytes
+1. **Número total de pixels**: \( 48 \text{ MP} = 48 \times 10^6 \text{ pixels} \)
+2. **Número total de bits**: \( 48 \times 10^6 \text{ pixels} \times 24 \text{ bits/pixel} \)
+3. **Convertendo bits para bytes**: \( 1 \text{ byte} = 8 \text{ bits} \)
+
+\[ \text{Tamanho em bytes} = \frac{48 \times 10^6 \text{ pixels} \times 24 \text{ bits/pixel}}{8} \]
+\[ \text{Tamanho em bytes} = 144 \times 10^6 \text{ bytes} \]
+
+### Passo 4: Convertendo Bytes para Megabytes
+Para converter bytes em megabytes, dividimos o número de bytes por 1.048.576 (o número de bytes em um megabyte):
+
+\[ \text{Tamanho em MB} = \frac{144 \times 10^6 \text{ bytes}}{1.048.576} \]
+\[ \text{Tamanho em MB} \approx 137.33 \text{ MB} \]
+
+### Resumo
+Uma imagem de 48 megapixels com uma profundidade de cor de 24 bits por pixel tem um tamanho aproximado de **137.33 MB**. 
+
+### Tamanho de Cada Pixel em MB
+Para encontrar o tamanho de cada pixel em MB, dividimos o tamanho total da imagem pelo número total de pixels:
+
+\[ \text{Tamanho de cada pixel em MB} = \frac{137.33 \text{ MB}}{48 \times 10^6 \text{ pixels}} \]
+\[ \text{Tamanho de cada pixel em MB} \approx 0.000002861 MB \]
+
+Portanto, cada pixel em uma imagem de 48 MP ocupa aproximadamente **0.000002861 MB**.
